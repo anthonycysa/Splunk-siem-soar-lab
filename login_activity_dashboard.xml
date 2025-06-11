@@ -1,0 +1,7 @@
+<dashboard>
+  <label>Login Activity</label>
+  <row><panel><chart>
+    <title>Failed Logins Over Time</title>
+    <search><query>index=wineventlog EventCode=4625 | timechart count by user</query></search>
+  </chart></panel></row>
+</dashboard>
