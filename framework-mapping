@@ -1,0 +1,5 @@
+Security Framework Mapping.
+This folder contains documentation that maps this Splunk SIEM + SOAR Lab to:
+MITRE ATT&CK
+NIST Cybersecurity Framework (CSF)
+PCI DSS
