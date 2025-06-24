@@ -12,7 +12,7 @@ This hands-on lab demonstrates how Splunk can be used as a powerful Security Inf
 
 ## 🎯 Tools Used
 
-- **Splunk Enterprise** (SIEM)
+- **Splunk Cloud** (SIEM)
 - **Splunk SOAR** (Automation & Response)
 - Custom logs and datasets
 - Framework alignment (MITRE, NIST CSF, PCI DSS)
