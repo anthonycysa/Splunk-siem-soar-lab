@@ -16,6 +16,17 @@ This hands-on lab demonstrates how Splunk can be used as a powerful Security Inf
 - **Splunk SOAR** (Automation & Response)
 - Custom logs and datasets
 - Framework alignment (MITRE, NIST CSF, PCI DSS)
+- ### Splunk Cloud Homepage
+
+![Splunk Cloud Admin Homepage](https://github.com/anthonycysa/Splunk-siem-soar-lab/blob/main/splunk-cloud-homepage.png?raw=true)
+### 🔍 Live Splunk Cloud Environment
+
+This project is powered by Splunk Cloud (SIEM). I am actively practicing:
+
+- Uploading and indexing log data  
+- Running search queries and correlation rules  
+- Visualizing results in dashboards  
+- Aligning detections with the MITRE ATT&CK framework
 
 ---
 
