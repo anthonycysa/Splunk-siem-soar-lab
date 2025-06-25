@@ -32,7 +32,11 @@ This project is powered by Splunk Cloud (SIEM). I am actively practicing:
 Below is a sample search result in Splunk Cloud showing parsed mock security logs. This demonstrates successful log ingestion, event parsing, and field extraction in a simulated SOC workflow.
 
 ![Splunk Log Search](https://github.com/anthonycysa/splunk-siem-soar-lab/blob/main/Splunk%20log%20search%20example%20.JPEG?raw=true)
+### 📊 Mock Security Dashboard (Splunk Cloud)
 
+Below is a custom Splunk dashboard panel visualizing mock security log events in a simulated SOC workflow. It helps analysts quickly assess login activity, detect failed login attempts, and trace unauthorized access patterns.
+
+![Splunk Cloud Dashboard - Mock Log Panel](https://github.com/anthonycysa/Splunk-siem-soar-lab/blob/main/Splunk%20dashboard%20view.jpeg?raw=true)
 
 
 ---
