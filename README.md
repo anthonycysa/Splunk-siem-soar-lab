@@ -27,6 +27,11 @@ This project is powered by Splunk Cloud (SIEM). I am actively practicing:
 - Running search queries and correlation rules  
 - Visualizing results in dashboards  
 - Aligning detections with the MITRE ATT&CK framework
+-### 📸 Splunk Cloud Log Search Example
+
+Below is a sample search result in Splunk Cloud showing parsed mock security logs. This demonstrates successful log ingestion, event parsing, and field extraction in a simulated SOC workflow.
+
+![Splunk Cloud Search Result](https://github.com/anthonycysa/splunk-siem-simulation-lab/blob/main/IMG_11B6F574-ED14-4C31-A9AD-09423A0C5CBA.jpeg?raw=true) 
 
 ---
 
