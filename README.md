@@ -36,7 +36,7 @@ Below is a sample search result in Splunk Cloud showing parsed mock security log
 
 Below is a custom Splunk dashboard panel visualizing mock security log events in a simulated SOC workflow. It helps analysts quickly assess login activity, detect failed login attempts, and trace unauthorized access patterns.
 
-https://raw.githubusercontent.com/anthonycysa/Splunk-siem-soar-lab/main/Splunk_dashboard_view.jpeg
+![Splunk Cloud Dashboard - Mock Log Panel](https://raw.githubusercontent.com/anthonycysa/Splunk-siem-soar-lab/main/Splunk_dashboard_view.jpeg)
 
 
 ---
