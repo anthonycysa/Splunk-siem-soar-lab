@@ -1,21 +1,32 @@
-# 🔍 Splunk SIEM & SOAR Lab
+# 🛡️ Splunk SIEM + SOAR Lab
 
-This hands-on lab demonstrates how Splunk can be used as a powerful Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution. It showcases how to ingest data, create detection rules, trigger alerts, and automate incident response.
+_A hands-on cybersecurity project using Splunk Cloud and SOAR playbooks to detect and respond to simulated security threats._
 
-## 🛠️ Key Features
+This lab demonstrates:
+- Detection of brute force and phishing attacks
+- Response automation using markdown-based SOAR playbooks
+- Alignment with MITRE ATT&CK, NIST CSF, and PCI DSS
+## ⚙️ Key Features
 
-- Ingested simulated log data for testing detection capabilities
-- Created correlation searches to identify suspicious activity
-- Configured notable events and alerts
-- Built mock playbooks for automated response using Splunk SOAR
-- Integrated detection logic with real-world attack techniques
+- ✅ Built using **Splunk Cloud**
+- ✅ Simulated detection of brute-force and phishing attacks
+- ✅ Markdown-based SOAR playbooks for response automation
+- ✅ Mapped to major security frameworks:
+  - MITRE ATT&CK
+  - NIST Cybersecurity Framework (CSF)
+  - PCI DSS v4.0
+- ✅ Clear, structured GitHub layout for recruiters and SOC teams
 
-## 🎯 Tools Used
+## 🧰 Tools & Technologies
 
-- **Splunk Cloud** (SIEM)
-- **Splunk SOAR** (Automation & Response)
-- Custom logs and datasets
-- Framework alignment (MITRE, NIST CSF, PCI DSS)
+- **Splunk Cloud** – Security Information & Event Management (SIEM)
+- **SOAR (Markdown-based simulation)** – Incident response automation logic
+- **Nessus** – Vulnerability scanning (referenced in brute force context)
+- **Wireshark** – Packet inspection for threat analysis
+- **MITRE ATT&CK** – Threat behavior mapping
+- **NIST CSF** – Security framework alignment
+- **PCI DSS** – Compliance alignment
+- **GitHub** – Project versioning and documentation
 - ### Splunk Cloud Homepage
 
 ![Splunk Cloud Admin Homepage](https://github.com/anthonycysa/Splunk-siem-soar-lab/blob/main/splunk-cloud-homepage.png?raw=true)
@@ -40,7 +51,14 @@ Below is a sample search result in Splunk Cloud showing parsed mock security log
 
 
 ---
+## ⚙️ SOAR Playbooks
 
+This project includes markdown-based SOAR playbooks that simulate automated incident response for common threats.
+
+| Use Case | Playbook Link |
+|----------|----------------|
+| 🔐 Brute Force Detection & Response | [Brute Force Playbook](playbooks/brute_force_response_playbook.md) |
+| 🎣 Phishing Email Response | [Phishing Playbook](playbooks/phishing_email_response_playbook.md) |
 ## 🔐 Security Framework Mappings
 
 This project maps Splunk detection use cases to key cybersecurity frameworks to demonstrate real-world SOC analyst value.
@@ -59,16 +77,22 @@ This project maps Splunk detection use cases to key cybersecurity frameworks to 
 
 ---
 
-## 📁 Repository Structure
----
+Each playbook in this project is aligned to key security frameworks used in enterprise SOCs.
 
-## 🚀 Future Improvements
+| Framework      | Mapping File |
+|----------------|--------------|
+| **MITRE ATT&CK** | [MITRE_ATT&CK_Mapping.md](MITRE_ATT&CK_Mapping.md) |
+| **NIST CSF**     | [NIST_CSF_Mapping.md](NIST_CSF_Mapping.md)         |
+| **PCI DSS v4.0** | [PCI_DSS_Mapping.md](PCI_DSS_Mapping.md)           |
 
-- Add threat intelligence enrichment to detections
-- Integrate additional data sources (e.g., endpoint, firewall)
-- Expand playbooks for automated containment and ticketing
+## 🏁 Summary
 
----
+This Splunk SIEM + SOAR lab project demonstrates:
+- Realistic SOC-style detection of brute-force and phishing threats
+- Automation of incident response using markdown-based SOAR playbooks
+- Alignment with key frameworks: MITRE ATT&CK, NIST CSF, and PCI DSS
+
+It serves as a practical, recruiter-ready demonstration of SOC Analyst skills using modern security tooling.
 
 ## 📫 Contact
 
