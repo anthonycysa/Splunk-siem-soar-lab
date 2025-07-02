@@ -59,6 +59,12 @@ This project includes markdown-based SOAR playbooks that simulate automated inci
 |----------|----------------|
 | 🔐 Brute Force Detection & Response | [Brute Force Playbook](playbooks/brute_force_response_playbook.md) |
 | 🎣 Phishing Email Response | [Phishing Playbook](playbooks/phishing_email_response_playbook.md) |
+### 🧠 Brute Force Playbook Output
+
+Below is a screenshot showing the detection of multiple failed login attempts in Splunk Cloud after uploading a simulated log file:
+
+![Brute Force Detection](brute_force_detection_result.jpg)
+
 ## 🔐 Security Framework Mappings
 
 This project maps Splunk detection use cases to key cybersecurity frameworks to demonstrate real-world SOC analyst value.
