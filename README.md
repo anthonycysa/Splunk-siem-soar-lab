@@ -62,8 +62,7 @@ This project includes markdown-based SOAR playbooks that simulate automated inci
 ### 🧠 Brute Force Playbook Output
 
 Below is a screenshot showing the detection of multiple failed login attempts in Splunk Cloud after uploading a simulated log file:
-
-![Brute Force Detection](brute_force_detection_result.jpg)
+You can find the screenshot of the detection result [here](brute_force_detection_result.jpeg.HEIC) in the repository.
 
 ## 🔐 Security Framework Mappings
 
