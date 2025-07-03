@@ -59,6 +59,11 @@ This project includes markdown-based SOAR playbooks that simulate automated inci
 |----------|----------------|
 | 🔐 Brute Force Detection & Response | [Brute Force Playbook](playbooks/brute_force_response_playbook.md) |
 | 🎣 Phishing Email Response | [Phishing Playbook](playbooks/phishing_email_response_playbook.md) |
+🧠 **Phishing Email Playbook Output**
+
+Below is a screenshot showing the detection of simulated phishing email alerts in Splunk Cloud after uploading a sample log file:
+
+![Phishing Email Detection Result](./phishing_detection_result.jpeg)
 ### 🧠 Brute Force Playbook Output
 
 Below is a screenshot showing the detection of multiple failed login attempts in Splunk Cloud after uploading a simulated log file:
